@@ -10,17 +10,16 @@ int main()
     j = rand()%6 + 1;
 for (i=0; i<3; i++)
     {
-        j = rand()%6 + 1
+        j = rand()%6 + 1;
         printf("\n O numero e %d \n ", j);
-        soma_dados = soma_dados + j
+        soma_dados = soma_dados + j;
 
     }
-    soma_dados = j;
     printf("A soma e: %d", soma_dados);
     if (soma_dados == 7 || soma_dados == 11)
         printf("\nJogador ganhou!");
-        else
-            printf("\nJogador perdeu!");
+    else
+        printf("\nJogador perdeu!");
     return 0;
 }
 
