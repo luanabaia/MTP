@@ -22,6 +22,7 @@ int main()
     else
         printf("\n\nO numero %d e impar\n\n", resultado);
     return 0;
+    
 }
 
 
