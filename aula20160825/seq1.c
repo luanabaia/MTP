@@ -9,4 +9,3 @@ int main()
     printf("A area do quadrado e: %.2f\n", area_quadrado);
     return 0;
 }
-
