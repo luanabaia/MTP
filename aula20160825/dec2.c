@@ -7,8 +7,8 @@ int main()
     int numero;
     int j, resultado;
     do {
-            printf ("\nEntre com um numero inteiro nao-negativo \n\n");
-            scanf("\n %d \n", &numero);
+            printf ("Entre com um numero inteiro nao-negativo \n\n");
+            scanf("%d", &numero);
         }   while(numero < 0);
     srand(time(0));
     j = rand()%2;  // rand somente numeros inteiros
