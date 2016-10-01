@@ -22,16 +22,17 @@
 
 
 struct Ponto {
-float x;
-float y;
-float z;
+    float x;
+    float y;
+    float z;
 };
 
 int main ()
 {
     struct Ponto A, B, S;
     float distancia;
-    RECEBE("A", A);    RECEBE("B", B);
+    RECEBE("A", A);
+    RECEBE("B", B);
     SOMA(A,B,S);
     MOSTRA(S);
     distancia = DISTANCIA(A,B);

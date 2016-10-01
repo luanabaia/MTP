@@ -3,13 +3,15 @@
 #define N 100
 int main()
 {
-    int vetor[100], i, n, soma, prod;
-    printf ("Digite o comprimento da sequencia: \n\n");
-    scanf ("\n%d", &n);
-    printf ("\nDigite uma sequencia com %d numeros inteiros: \n", n );
-    for ( i = 0 ; i < n; i ++)
+    int vetor[100], i, n, soma = 0, prod = 1;
+    printf ("\nDigite uma sequencia com 10 numeros inteiros: \n");
+    for ( i = 0 ; i < 10; i ++)
     {
        scanf ("\n%d", &vetor [i]) ;
+       soma = soma + vetor[i];
+       prod = prod * vetor[i];
     }
+    printf("\nA soma da sequencia e: %d\n", soma);
+    printf("\nO produto da sequencia e: %d\n", prod);
     return 0;
 }

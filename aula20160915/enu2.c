@@ -25,7 +25,7 @@ int main()
     Meses nascimento;
     printf("Digite o numero do mes em que voce nasceu\n");
     scanf("%d", &mes);
-    printf("Voce nasceu em: ");
+    printf("\nVoce nasceu em: \n\n");
     switch (mes)
     {
     case janeiro:
