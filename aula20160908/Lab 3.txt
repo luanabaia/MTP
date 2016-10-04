@@ -1,4 +1,6 @@
-printf("%p \n", p);	endereço
-printf("%p \n", &i);	endereço
-printf("%d \n", *p);	conteúdo
-printf("%d \n", i);	conteúdo
+printf("%p \n", p);	para endereço
+printf("%p \n", &i);	para endereço
+printf("%d \n", *p);	para conteúdo
+printf("%d \n", i);	para conteúdo
+
+
