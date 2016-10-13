@@ -18,4 +18,5 @@ int main()
         }
         if(perfeito == numero)
             printf("\n\nPerfeito\n");
+    return 0;
 }

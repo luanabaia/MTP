@@ -16,4 +16,3 @@ int main()
     printf("\nBytes apenas com 0's: %d\n", contagem);
     return 0;
 }
-

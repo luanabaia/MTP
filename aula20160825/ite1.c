@@ -10,5 +10,4 @@ int main()
         fatorial = fatorial*i;
     printf("O fatorial de %d e igual a %d.\n", numero, fatorial);
     return 0;
-
 }

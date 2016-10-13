@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-//  rand()%6   de 0 a 5
-//  rand()%6 +1
-
 int main ()
 {
     float a, b, c, media;

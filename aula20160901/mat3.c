@@ -1,7 +1,6 @@
 # include <stdio.h>
 # include <math.h>
 
-
 int main ()
 {
     double base, numero, logaritmo;
@@ -14,4 +13,3 @@ int main ()
     printf("\nO valor do logaritmo e: %lf\n",logaritmo);
     return 0;
 }
-

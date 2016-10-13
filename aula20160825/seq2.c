@@ -9,5 +9,3 @@ int main()
     printf("\nA area do triangulo e: %.2f\n", area_triangulo);
     return 0;
 }
-
-

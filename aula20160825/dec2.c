@@ -9,7 +9,7 @@ int main()
     do {
             printf ("Entre com um numero inteiro nao-negativo \n\n");
             scanf("%d", &numero);
-        }   while(numero < 0);
+    } while(numero < 0);
     srand(time(0));
     j = rand()%2;  // rand somente numeros inteiros
     printf("\n%d\n", j);
@@ -23,5 +23,3 @@ int main()
         printf("\n\nO numero %d e impar\n\n", resultado);
     return 0;
 }
-
-
