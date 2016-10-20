@@ -3,7 +3,8 @@
 int divisao(int dividendo, int divisor,
 		int *quociente, int *resto);
 
-int main() {
+int main()
+{
 	int dividendo, divisor;
 	int quociente, resto;
 	printf("Entre com o dividendo: ");
@@ -17,11 +18,12 @@ int main() {
 	return 0;
 }
 
-int divisao(int dividendo, int divisor,
-		int *quociente, int *resto) {
-	if(divisor != 0) {
-		*quociente = dividendo / divisor;
-		*resto = dividendo % divisor;
-		return 1;
+int divisao(int dividendo, int divisor, int *quociente, int *resto)
+{
+	if(divisor != 0)
+        {
+            *quociente = dividendo / divisor;
+            *resto = dividendo % divisor;
+            return 1;
 	} else return 0;
 }

@@ -4,18 +4,19 @@
 
 int main()
 {
-    int vetor[100], i, n;
-    printf ("Digite o comprimento da sequencia: \n\n");
-    scanf ("\n%d", &n);
+    int vet[100], i, n;
+    printf ("\nDigite o comprimento da sequencia: \n\n");
+    scanf ("%d", &n);
+    printf("\n");
     printf ("\nDigite uma sequencia com %d numeros inteiros: \n\n", n );
     for ( i = 0 ; i < n; i ++)
     {
-       scanf ("\n%d", &vetor [i]);
+       scanf ("\n%d", &vet [i]);
        printf("\n");
     }
     for ( i = n-1 ; i >= 0; i --)
     {
-        printf ("\n%d\n", vetor[i]);
+        printf ("\n%d\n", vet[i]);
         printf ("\n") ;
     }
     return 0;

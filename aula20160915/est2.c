@@ -30,12 +30,12 @@ struct Ponto {
 int main ()
 {
     struct Ponto A, B, S;
-    float distancia;
+    float dist;
     RECEBE("A", A);
     RECEBE("B", B);
     SOMA(A,B,S);
     MOSTRA(S);
-    distancia = DISTANCIA(A,B);
-    printf("A distancia entre eles: %g\n", distancia);
+    dist = DISTANCIA(A,B);
+    printf("A distancia entre os pontos e: %g\n", dist);
     return 0;
 }

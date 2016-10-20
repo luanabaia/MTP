@@ -3,16 +3,16 @@
 
 int main()
 {
-    int vetor[] = {0,1,2,4,8};
+    int vet[] = {0,1,2,4,8};
     //int tam = sizeof(vetor)/sizeof(int); // 20=5*4bits/5 inteiros
-    int contagem = 0;
+    int cont = 0;
     unsigned char *p = NULL, *q; // O PONTEIRO ESTÁ APONTANDO PARA NADA - inicializar ponteiros
-    p = q = (unsigned char *) vetor;
-    for(; p < q + sizeof(vetor); p++)
+    p = q = (unsigned char *) vet;
+    for(; p < q + sizeof(vet); p++)
     {
-        if(*p == 0x0) contagem++; // incrementa quando tiver 0 - *p = conteudo
+        if(*p == 0x0) cont++; // incrementa quando tiver 0 - *p = conteudo
         printf("\n%p : %d\n", p, *p);
     }
-    printf("\nBytes apenas com 0's: %d\n", contagem);
+    printf("\nBytes apenas com 0's: %d\n", cont);
     return 0;
 }
