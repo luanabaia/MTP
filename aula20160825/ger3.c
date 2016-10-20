@@ -3,7 +3,7 @@
 int main()
 {
      int numero, i;
-     int perfeito = 0;
+     int numero_perfeito = 0;
      printf("\nDigite um numero: \n\n");
      scanf("%d",&numero);
      printf("\n");
@@ -13,10 +13,10 @@ int main()
             if(numero%i == 0)
             {
                 printf("%d, ",i);
-                perfeito = perfeito + i;
+                numero_perfeito = numero_perfeito + i;
             }
         }
-        if(perfeito == numero)
+        if(numero_perfeito == numero)
             printf("\n\nPerfeito\n");
     return 0;
 }

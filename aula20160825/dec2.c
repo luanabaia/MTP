@@ -4,8 +4,7 @@
 
 int main()
 {
-    int numero;
-    int j, resultado;
+    int numero, j, resul;
     do {
             printf ("Entre com um numero inteiro nao-negativo \n\n");
             scanf("%d", &numero);
@@ -13,13 +12,13 @@ int main()
     srand(time(0));
     j = rand()%2;  // rand somente numeros inteiros
     printf("\n%d\n", j);
-    resultado = j + numero;
-    printf("\n%d\n", resultado);
-    if (resultado %2 == 0)
+    resul = j + numero;
+    printf("\n%d\n", resul);
+    if (resul %2 == 0)
     {
-        printf("\n\nO numero %d e par\n\n", resultado);
+        printf("\n\nO numero %d e par\n\n", resul);
     }
     else
-        printf("\n\nO numero %d e impar\n\n", resultado);
+        printf("\n\nO numero %d e impar\n\n", resul);
     return 0;
 }

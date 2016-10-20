@@ -6,7 +6,7 @@ int main()
 {
     srand(time(0));
     int i, j, soma, soma_dados=0;
-    printf("Sorteio de tres numeros: \n");
+    printf("Sorteio aleatorio de tres numeros: \n");
     j = rand()%6 + 1;
     for (i=0; i<3; i++)
     {

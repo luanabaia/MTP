@@ -4,22 +4,22 @@
 
 int main()
 {
-    int numero, j;
+    int num, i;
     srand(time(0));
-    j = rand()%100;  // rand somente numeros inteiros
-    printf("\n%d\n", j);
+    i = rand()%100;  // rand somente numeros inteiros
+    printf("\n%d\n", i);
     printf("\nDigite um numero entre 0 e 99\n");
     printf("\n\n");
-    scanf("%d", &numero);
-    if (numero < j)
+    scanf("%d", &num);
+    if (num < i)
     {
         printf("\nBaixo\n");
     }
-    if (numero > j)
+    if (num > i)
     {
         printf("\nAlto\n");
     }
-    if (numero == j)
+    if (num == i)
     {
         printf("\nAcertou\n");
     }

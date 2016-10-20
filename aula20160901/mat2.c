@@ -3,7 +3,7 @@
 
 int main ()
 {
-    double a, b, c, angulo;
+    double x, y, z, angulo;
     double cos (double angulo);
     printf("\nEntre com o valor do angulo do triangulo\n\n");
     scanf("%lf", &angulo);

@@ -1,6 +1,4 @@
 #include <stdio.h>
-#define MOSTRA(B) \
-({ printf("%s\n", (B)? "Verdadeiro" : "Falso"); })
 
 typedef
 enum Mes {
@@ -22,50 +20,47 @@ dezembro = 12,
 int main()
 {
     int mes = 0;
-    Meses nascimento;
-    printf("Digite o numero do mes em que voce nasceu\n");
+    printf("Digite o numero do mes em que voce nasceu\n\n");
     scanf("%d", &mes);
-    printf("\nVoce nasceu em: \n\n");
+    printf("\nVoce nasceu no mes de: \n\n");
     switch (mes)
     {
     case janeiro:
-        printf("janeiro\n");
+        printf("Janeiro\n");
         break;
     case fevereiro:
-        printf("fevereiro\n");
+        printf("Fevereiro\n");
         break;
     case marco:
-        printf("marco\n");
+        printf("Marco\n");
         break;
     case abril:
-        printf("abril\n");
+        printf("Abril\n");
         break;
     case maio:
-        printf("maio\n");
+        printf("Maio\n");
         break;
     case junho:
-        printf("junho\n");
+        printf("Junho\n");
         break;
     case julho:
-        printf("julho\n");
+        printf("Julho\n");
         break;
     case agosto:
-        printf("agosto\n");
+        printf("Agosto\n");
         break;
     case setembro:
-        printf("setembro\n");
+        printf("Setembro\n");
         break;
     case outubro:
-        printf("outubro\n");
+        printf("Outubro\n");
         break;
      case novembro:
-        printf("novembro\n");
+        printf("Novembro\n");
         break;
     case dezembro:
-        printf("dezembro\n");
+        printf("Dezembro\n");
         break;
     }
  return 0;
     }
-
-

@@ -5,10 +5,10 @@
 int main ()
 {
     char palavra[256];
-    int tamanho;
+    int tam;
     printf("\nEntre com uma palavra \n\n");
     gets(palavra);
-    tamanho = strlen(palavra);
-    printf("\nTotal de letras da palavra: %d \n", tamanho);
+    tam = strlen(palavra);
+    printf("\nTotal de letras da palavra: %d \n", tam);
     return 0;
 }

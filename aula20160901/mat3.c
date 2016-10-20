@@ -3,13 +3,13 @@
 
 int main ()
 {
-    double base, numero, logaritmo;
+    double base, num, logaritmo;
     double log10(double numero);
     printf("\nEntre com um valor qualquer\n\n");
-    scanf("%lf", &numero);
+    scanf("%lf", &num);
     printf("\nEntre com o valor da base:\n\n");
     scanf("%lf", &base);
-    logaritmo = log(numero)/log(base);
+    logaritmo = log(num)/log(base);
     printf("\nO valor do logaritmo e: %lf\n",logaritmo);
     return 0;
 }
