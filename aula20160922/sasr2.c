@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 void numeros_pares()
 {
     printf("\n2 4 6 8 10\n\n");
@@ -17,7 +16,6 @@ void sair()
 {
     printf("\nAte mais\n");
 }
-
 
 int main()
 {

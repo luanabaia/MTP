@@ -31,7 +31,7 @@ void recebe_dado(char tipo, void * endereco)
         break;
         case 'f': scanf("%f", (float*) endereco);
         break;
-        case 'c': scanf("%f", (char*) endereco);
+        case 'c': scanf("%c", (char*) endereco);
         break;
     }
     while((c = getchar()) != EOF && c != '\n'); //apagar o buffer de entrada

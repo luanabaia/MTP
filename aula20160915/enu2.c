@@ -16,7 +16,6 @@ novembro = 11,
 dezembro = 12,
 } Meses;
 
-
 int main()
 {
     int mes = 0;
@@ -62,5 +61,5 @@ int main()
         printf("Dezembro\n");
         break;
     }
- return 0;
-    }
+    return 0;
+}
