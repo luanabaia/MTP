@@ -4,17 +4,18 @@
 int main ()
 {
     char frase[256];
-    int indice = 0, verific, cont=0;
+    int indice = 0, verificador, contador=0;
     printf("Entre com uma frase\n\n");
     gets(frase);
-    verific = frase[indice];
-    while(verific != '\0')
+    verificador = frase[indice];
+    while(verificador != '\0')
     {
-        if (verific = isalpha(verific))
-            cont++;
+        if (verificador = isalpha(verificador))
+            contador++;
             indice++;
-            verific = frase[indice];
+            verificador = frase[indice];
     }
-    printf("%d\n", cont);
+    printf("%d\n", contador);
     return 0;
 }
+

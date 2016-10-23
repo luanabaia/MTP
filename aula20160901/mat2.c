@@ -1,9 +1,10 @@
 # include <stdio.h>
 # include <math.h>
 
+
 int main ()
 {
-    double x, y, z, angulo;
+    double a, b, c, angulo;
     double cos (double angulo);
     printf("\nEntre com o valor do angulo do triangulo\n\n");
     scanf("%lf", &angulo);
