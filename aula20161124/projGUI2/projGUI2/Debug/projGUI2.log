@@ -1,0 +1,32 @@
+﻿Build started 24/11/2016 11:56:53.
+     1>Project "C:\Users\UFU\Documents\MTP\aula20161124\projGUI2\projGUI2\projGUI2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\projGUI2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\projGUI2.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt projGUI2.cpp /clr:nostdlib 
+         projGUI2.cpp
+         All outputs are up-to-date.
+       CoreResGen:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\UFU\Documents\MTP\aula20161124\projGUI2\Debug\projGUI2.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\projGUI2.Form1.resources /MANIFEST /ManifestFile:"Debug\projGUI2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\UFU\Documents\MTP\aula20161124\projGUI2\Debug\projGUI2.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\projGUI2.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         projGUI2.vcxproj -> C:\Users\UFU\Documents\MTP\aula20161124\projGUI2\Debug\projGUI2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\UFU\Documents\MTP\aula20161124\projGUI2\Debug\projGUI2.exe;#1" /manifest Debug\projGUI2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\projGUI2.unsuccessfulbuild".
+         Touching "Debug\projGUI2.lastbuildstate".
+     1>Done Building Project "C:\Users\UFU\Documents\MTP\aula20161124\projGUI2\projGUI2\projGUI2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.13
