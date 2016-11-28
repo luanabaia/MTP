@@ -11,13 +11,13 @@ int main()
 {
     char * texto;
     printf("::: Inicio (para sair, tecle #,ENTER) :::::::::::\n");
-    texto = leTexto(); // incluida
+    texto = recebeTexto(); // incluida
     printf("%s", texto);
     texto = recebeTexto();
     printf("\n::: Na memoria :::::::::::\n");
     printf("%s\n", texto);
     printf("\nTamanho da string: %d\n", strlen(texto));
-    gravaTexto(texto, strlen(texto)); // é só isso!!!!!!!!!!
+    gravaTexto(texto, strlen(texto)); // Ã© sÃ³ isso!!!!!!!!!!
     free(texto);
     return 0;
 }
